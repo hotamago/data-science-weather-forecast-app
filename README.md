@@ -6,8 +6,9 @@
 ```
 git clone https://github.com/hotamago/data-science-weather-forecast-app
 cd data-science-weather-forecast-app
-pip -m venv env
-./env/activate
+python -m venv env
+.\env\Scripts\activate
+python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
 streamlit run app.py
 ```
