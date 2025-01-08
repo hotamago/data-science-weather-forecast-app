@@ -1,0 +1,8 @@
+[server]
+headless = true
+fileWatcherType = "auto"
+runOnSave = false
+
+[client]
+toolbarMode = "auto"
+showSidebarNavigation = false
